@@ -1,0 +1,39 @@
+@mixin default() {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  @include default();
+}
+*::after {
+  @include default();
+}
+*::before {
+  @include default();
+}
+body {
+  background-color: goldenrod;
+  .root .btn-title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    .title{
+        text-shadow: 2px 1px 1px white;
+    }
+    .btn {
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      b{
+        font-weight: 400;
+        font-size: 25px;
+      }
+    }
+  }
+}
