@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: goldenrod;
+}
+
+body .root .btn-title {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body .root .btn-title .title {
+  text-shadow: 2px 1px 1px white;
+}
+
+body .root .btn-title .color-code input {
+  height: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+body .root .btn-title .color-code button {
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+body .root .btn-title .btn {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+body .root .btn-title .btn b {
+  font-weight: 400;
+  font-size: 25px;
+}
+/*# sourceMappingURL=styles.css.map */
